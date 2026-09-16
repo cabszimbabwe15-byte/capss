@@ -1,0 +1,35 @@
+.containee {
+  width: 100%;
+  /* background: linear-gradient(to right, rgb(181, 181, 187), rgb(218, 59, 10)); */
+  /* background-color: rgb(223, 89, 89);
+  background-color: rgb(224, 134, 134); */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 4rem;
+  /* background-color: blue; */
+}
+
+.applic {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.applic h1 {
+  font-size: 3rem;
+  color: rgb(17, 201, 57) !important;
+  margin-bottom: 1rem;
+}
+
+.applic p {
+  font-size: 1.6rem;
+  text-align: left;
+}
